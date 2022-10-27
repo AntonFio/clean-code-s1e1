@@ -158,18 +158,18 @@
 }
 
 /* Edit Task */
-.task-list,
+.task-list
 .task-input {
   display: none;
 }
 
-.edit-mode,
+.edit-mode
 .task-input {
   display: inline-block;
   width: 224px;
 }
 
-.edit-mode,
+.edit-mode
 .task-label {
   display: none;
 }
