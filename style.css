@@ -12,7 +12,7 @@
   text-align: right;
 }
 
-.header img {
+.header-img {
   width: 100%;
 }
 
@@ -49,11 +49,13 @@
   padding: 0px;
 }
 
-.task-item, .heading {
+.task-item,
+.heading {
   list-style: none;
 }
 
-.task-input,.btn{
+.task-input,
+.btn{
   outline: none;
 }
 
@@ -156,15 +158,18 @@
 }
 
 /* Edit Task */
-.task-list .task-input {
+.task-list,
+.task-input {
   display: none;
 }
 
-.edit-mode .task-input {
+.edit-mode,
+.task-input {
   display: inline-block;
   width: 224px;
 }
 
-.edit-mode .task-label {
+.edit-mode,
+.task-label {
   display: none;
 }
